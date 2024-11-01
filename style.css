@@ -1,0 +1,298 @@
+
+ *{
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5s ease;
+ }
+
+ body div :hover{
+    transform: scale(1.05);
+ }
+
+ a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+ #fundo1{
+    background-image: url(flower-7019264.jpg);
+    background-attachment: fixed;
+    background-size: 100% ;
+    height: 100vh;
+
+ }
+
+
+ 
+#back
+{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    height: 10vh;
+    font-size: 24px;
+}
+
+.barra{
+    margin-left: 100px; 
+}
+
+#ola{
+color: aliceblue;
+font-size: 80px;
+text-align: center;
+margin-top: 0px;
+
+}
+
+.caio{
+    color: aliceblue;
+    font-weight:900;
+    font-size: 160px;
+    text-align: center;
+}
+
+.caio1{
+    color: #ffffff;
+    font-weight:900;
+    font-size: 70px;
+    text-align: center;
+}
+
+.caio2{
+    color: #565656;
+    font-weight:900;
+    font-size: 70px;
+    text-align: center;
+}
+
+#fundo{
+    background-color: #d8ad21;
+  padding-top: 100px;
+}
+
+#quadrado1{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+    background-color: #565656;
+    width: 700px; height: 420px;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-weight: 800;
+
+}
+
+
+#quadrado2{
+    color: #565656;
+    font-size: 26px;
+    text-align: center;
+    background-color: #ffffff;
+    width: 700px; height: 420px;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+#dp1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#txt1{
+    color: aliceblue;
+    font-size: 31px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.quadrado1{
+    width: 370px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #565656;
+    border: solid 10px  #ffffff;
+    margin-left: 100px;
+    object-fit: cover;
+    text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+#df{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#traços{
+    text-align: center;
+    font-size: 40px;
+    color: white ;
+}
+
+#rodape{
+    width: 100%;
+    height: 50px;
+    background-color: #565656;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#rodape div{
+    margin-left: 200PX;
+}
+
+.rpd{
+    padding-left:  30px;
+}
+
+
+#main4{
+    display: flex ;
+    flex-direction: row;
+    padding: 30px 30px ;
+    justify-content: center;
+    
+}
+
+.tamanho_img{
+object-fit: cover;
+    width: 420px;
+    height: 420px;
+    overflow: hidden;
+margin-left: 40px;
+border-radius: 20px;
+}
+
+img{
+    border-radius: 30px;
+
+}
+
+
+.text2{color: rgb(255, 255, 255);
+    font-size: 46px;
+    text-align: center;
+font-weight: 800;
+}
+
+
+.text3{color: #565656;
+    font-size: 46px;
+    text-align: center;
+font-weight: 800;
+background-color: #ffffff;}
+
+#input{
+    width: 600px;
+    height: 630px;
+    background-color: #565656;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+   border-radius: 20px;
+   margin: auto;
+}
+
+input{
+    width: 300px;
+    height: 60px;
+}
+
+textarea{
+    width: 300px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+body.dark {
+    background: #292c35;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 70%;
+    margin-left: 70px;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+
+}
+
+
+.label .ball {
+
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 70%;
+    left: 2px;
+    height: 27px;
+    width: 27px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #9b9b9b;
+}
+
+.fa-sun {
+    color: #ffa600;
+}
+
+
+.dark-mode {
+    background-color: #000000; 
+    color: #ffffff; 
+    background-image: url('caminho/para/imagem-escura.jpg'); 
+    background-size: cover; 
+}
+
+#toggle-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#toggle-button:hover {
+    transform: scale(1.1);
+}
+
